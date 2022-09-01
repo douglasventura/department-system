@@ -3,10 +3,10 @@ package application;
 import java.time.Instant;
 import java.util.List;
 
-import modeldao.DaoFactory;
-import modeldao.SellerDao;
-import modelentities.Department;
-import modelentities.Seller;
+import model.dao.DaoFactory;
+import model.dao.SellerDao;
+import model.entities.Department;
+import model.entities.Seller;
 
 public class App {
     public static void main(String[] args) {

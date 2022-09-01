@@ -1,4 +1,4 @@
-package modeldaoimpl;
+package model.dao.impl;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -9,8 +9,8 @@ import java.util.List;
 
 import db.DB;
 import db.DbException;
-import modeldao.DepartmentDao;
-import modelentities.Department;
+import model.dao.DepartmentDao;
+import model.entities.Department;
 
 public class DepartmentDaoJDBC implements DepartmentDao {
 

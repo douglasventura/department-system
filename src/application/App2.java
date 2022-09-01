@@ -2,9 +2,9 @@ package application;
 
 import java.util.List;
 
-import modeldao.DaoFactory;
-import modeldao.DepartmentDao;
-import modelentities.Department;
+import model.dao.DaoFactory;
+import model.dao.DepartmentDao;
+import model.entities.Department;
 
 public class App2 {
     
@@ -18,7 +18,6 @@ public class App2 {
         
         System.out.println("\n=== TEST 2: Department findAll ===");
         List<Department> departments = departmentDao.findAll();
-        departments = departmentDao.findAll();
         
         for (Department d : departments) {
             System.out.println(d);
